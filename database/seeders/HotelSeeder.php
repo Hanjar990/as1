@@ -17,16 +17,13 @@ class HotelSeeder extends Seeder
     {
         $city = City::inRandomOrder()->first();
         $objs = [
-            'Arkadag',
+            'Arzuw',
+            'Celeken',
+            'kemran',
+            'Yelken',
+            'Kenar',
+            'AltynAsyr',
             'Garagum',
-            'Berkarar',
-            'Amyderya',
-            'Hazyna',
-            'Grand',
-            'Oguzkent',
-            'Yyldyz',
-            'Archabil',
-            'Ak Altyn',
         ];
 
         foreach ($objs as $obj){
